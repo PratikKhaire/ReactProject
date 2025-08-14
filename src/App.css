@@ -114,7 +114,7 @@
 #container {
   display: flex;
   flex-direction: row;
-  gap: 2rem; space between profiles
+  /* gap: 2rem; space between profiles */
   justify-content: center; /* center the row */
   flex-wrap: wrap; /* allows wrapping on small screens */
 }
