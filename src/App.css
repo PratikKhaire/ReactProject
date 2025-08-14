@@ -44,6 +44,7 @@
 #person {
   background-color: red;
   display: flex;
+  /* flex-direction: row; */
   justify-content: center;
   align-items: center;
   width: 200px;
@@ -108,4 +109,12 @@
 .social-icons svg:hover {
   color: #e63946;
   transform: scale(1.15);
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem; space between profiles
+  justify-content: center; /* center the row */
+  flex-wrap: wrap; /* allows wrapping on small screens */
 }
